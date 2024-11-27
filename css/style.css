@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* font-family: 'Saira', sans-serif;
+font-family: 'Saira Condensed', sans-serif; */
+
+header {
+    background-color: #29a6dc;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.welcome {
+    padding: 12vh 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.welcome p {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.welcome h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+
+.welcome h2+h2 {
+    font-weight: 400;
+    margin-bottom: 4vh;
+}
+
+.welcome button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: 'Saira', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 1.2rem 1rem;
+}
+
+header img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+}
+
+section.short-container {
+    height: 100vh;
+    position: relative;
+}
+
+section.short {
+    color: black;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.short h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 20vw;
+    text-align: center;
+}
+
+.short-elements img {
+    display: block;
+    margin: 0 auto;
+    height: 12vh;
+}
+
+.short-elements h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 1vh 10vw;
+}
+
+.short-elements p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0 10vw;
+}
+
+.short-element3 {
+    display: none;
+}
+
+.projects {
+    background-color: #1e1e1e;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.projects h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 2vh 10vw;
+}
+
+.projects img {
+    width: 100vw;
+}
+
+.project-element3,
+.project-element4 {
+    display: none;
+}
+
+.project-element-description {
+    font-family: 'Saira', sans-serif;
+}
+
+.projects-elements>div:nth-child(odd) {
+    background-color: #ff4f2c;
+}
+
+.projects-elements>div:nth-child(even) {
+    background-color: #29a6dc;
+}
+
+.project-element-description>* {
+    padding: 3vh 0 2vh 8vw;
+    margin-right: 8vw;
+    font-weight: 300;
+}
+
+.project-element-description h3 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+.project-element-description p {
+    font-size: 1.2rem;
+    padding-top: 2vh;
+}
+
+section.motto {
+    display: block;
+    height: 100vh;
+    background-image: url(../images/motto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    border-top: 2px solid white;
+}
+
+.motto h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 8vh 10vw;
+}
+
+.motto p {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 8vh 10vw;
+}
+
+.free-time h2 {
+    color: #1e1e1e;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 2vh 10vw;
+}
+
+.free-time-elements>* {
+    background-repeat: no-repeat;
+    height: 30vh;
+    background-size: cover;
+}
+
+.free-time-elements>div {
+    position: relative;
+}
+
+.free-time-elements p {
+    background-color: rgba(128, 125, 125, 0.596);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    right: 0;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.free-time-element1 {
+    background-image: url('../images/hobby1.jpg');
+}
+
+.free-time-element2 {
+    background-image: url('../images/hobby2.jpg');
+}
+
+.free-time-element3 {
+    background-image: url('../images/hobby3.jpg');
+}
+
+.free-time-element4 {
+    background-image: url('../images/hobby4.jpg');
+}
+
+section.contact {
+    background-color: #1e1e1e;
+    height: 90vh;
+    font-family: 'Saira', sans-serif;
+    color: white;
+}
+
+section.contact h2 {
+
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 5vh 10vw 2vh;
+}
+
+.contact-element1>* {
+    font-family: 'Saira', sans-serif;
+    margin: 3vh auto;
+    display: block;
+    width: 80%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    height: 3.6rem;
+    padding: 0 1rem;
+}
+
+.contact-element1 button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    height: 4rem;
+}
+
+.contact-element2 {
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.contact-element2 div {
+    margin: 2vh auto 2vh 20vw;
+    width: 80%;
+}
+
+.contact-element2 div>* {
+    float: left;
+}
+
+.contact-element2 img {
+    height: 3.6rem;
+}
+
+.contact-element {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+footer {
+    background-color: #29a6dc;
+    color: #1e1e1e;
+    font-family: 'Saira', sans-serif;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 10vh;
+    height: 10vh;
+}
